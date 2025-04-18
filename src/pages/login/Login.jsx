@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Login.module.scss";
 import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <div className={style.loginContainer}>
@@ -35,6 +36,7 @@ const Login = () => {
           </Link>
          
         </div>
+      
       </div>
     </div>
   );
